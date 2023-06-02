@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@200;300;400;500;600&family=Quicksand:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4070f4;
+}
+
+.form {
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.field input,
+.field button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.field input {
+    padding: 0 15px;
+    border: 1px solid #CACACA;
+}
+
+.form-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-link span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+
+.form-link a {
+    color: #2874f0;
+}
+
+a {
+    color: #0171d3;
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+.fa-eye-slash,
+.fa-eye {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #2874f0;
+    cursor: pointer;
+}
+
+.fa-eye {
+    display: none;
+}
+
+.input-field button {
+    cursor: pointer;
+}

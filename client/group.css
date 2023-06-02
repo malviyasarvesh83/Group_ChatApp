@@ -1,0 +1,97 @@
+.username {
+    margin-left: 200px;
+}
+
+.groups {
+    cursor: pointer;
+}
+
+.main-container {
+    /* border: 1px solid gray; */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 570px;
+    display: flex;
+}
+
+.group-list {
+    /* border: 1px solid red; */
+    width: 25%;
+}
+
+.list-group {
+    height: 510px;
+    overflow-y: auto;
+}
+
+.chatBox {
+    border: 1px solid gray;
+    width: 75%;
+    display: none;
+}
+
+.chat-section {
+    border: 1px solid gray;
+    width: 100%;
+    height: 90%;
+    overflow-y: auto;
+    background-color: lightblue;
+}
+
+.send {
+    border: 1px solid gray;
+    width: 981px;
+    height: 10%;
+}
+
+.send input {
+    width: 850px;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.send button {
+    width: 120px;
+    height: 100%;
+}
+
+.my-chat {
+    float: right;
+    clear: both;
+    margin: 10px;
+    border: 1px solid gray;
+    width: 300px;
+    padding-left: 10px;
+    background-color: green;
+    color: white;
+}
+
+.other-chat {
+    float: left;
+    clear: both;
+    margin: 10px;
+    border: 1px solid gray;
+    width: 300px;
+    padding-left: 10px;
+    background-color: white;
+    color: gray;
+}
+
+.add-members {
+    border: 1px solid gray;
+    height: 40px;
+    background-color: #f0f0f0;
+}
+
+.add-member-btn {
+    margin-left: 40px;
+}
+
+.fa-trash {
+    color: red;
+    cursor: pointer;
+}
